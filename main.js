@@ -1,5 +1,4 @@
-// Arquivo JavaScript do protótipo
-// Adicione aqui funcionalidades extras conforme necessário
+// Arquivo JavaScript do protótipo atualizado
 
 document.addEventListener('DOMContentLoaded', function() {
   
@@ -59,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }, observerOptions);
   
-  // Observar elementos para animar
+  // Observar elementos para animar (Atualizado para incluir os novos cards e seções)
   const animateElements = document.querySelectorAll('.learn-card, .gallery-item, .about-feature, .comparison-card');
   animateElements.forEach(el => {
     el.style.opacity = '0';
