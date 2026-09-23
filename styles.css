@@ -1,4 +1,4 @@
-css: /*
+/*
   Paleta de cores:
   - Marrom principal: #6B4E45
   - Dourado: #C9A86C
@@ -463,5 +463,3 @@ h6 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid rgba(107, 78, 69, 0.08);
 }
-
-.learn-card:hover {
