@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dra. Gabriella Lima | Odontologia e Estética</title>
-  <meta name="description" content="Dra. Gabriella Lima - Estética do sorriso com naturalidade e planejamento. Salvador - BA.">
+  <meta name="description"
+    content="Dra. Gabriella Lima - Estética do sorriso com naturalidade e planejamento. Salvador - BA.">
 
   <!-- Favicon -->
   <link rel="icon" type="image/jpeg" href="imagens/perfildra.jpg">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Open Graph (Preview ao compartilhar no WhatsApp e redes) -->
   <meta property="og:title" content="Dra. Gabriella Lima | Odontologia e Estética">
@@ -413,7 +415,8 @@
 
     <!-- Avatar -->
     <div class="avatar-wrapper">
-      <img src="imagens/dra0.jpg" alt="Dra. Gabriella Lima" class="avatar-img" onerror="if(!this.dataset.triedBackup){this.dataset.triedBackup='1';this.src='imagens/dra-perfil.jpg';}else if(!this.dataset.triedPng){this.dataset.triedPng='1';this.src='imagens/dra.png';}">
+      <img src="imagens/perfildra.jpg" alt="Dra. Gabriella Lima" class="avatar-img"
+        onerror="if(!this.dataset.triedBackup){this.dataset.triedBackup='1';this.src='imagens/dra-perfil.jpg';}else if(!this.dataset.triedPng){this.dataset.triedPng='1';this.src='imagens/dra.png';}">
     </div>
 
     <!-- Title & Tagline -->
@@ -425,8 +428,9 @@
     <!-- Cards Stack -->
     <div class="cards-stack">
 
-      <!-- Card 1: Quote / Motto -->
-      <div class="link-card card-light card-quote">
+      <!-- Card 1: Casos Clínicos (Points to casos.html) -->
+      <a href="CASOS/casos.html" class="link-card card-light" id="btn-casos-clinicos"
+        title="Casos & Resultados | Dra. Gabriella Lima">
         <div class="card-icon-col">
           <!-- Tooth Icon with Sparkle -->
           <svg class="icon-gold" width="34" height="34" viewBox="0 0 32 32" fill="none" stroke="currentColor"
@@ -443,10 +447,17 @@
             Seu sorriso planejado<br>para valorizar a sua essência.
           </p>
         </div>
-      </div>
+        <div class="card-arrow-col">
+          <svg class="arrow-icon-light" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14" />
+            <path d="m13 6 6 6-6 6" />
+          </svg>
+        </div>
+      </a>
 
       <!-- Card 2: Método E.V.O.L.U.A. (Points to second.html) -->
-      <a href="second.html" class="link-card card-evolua" id="btn-metodo-evolua"
+      <a href="EVOLUA/second.html" class="link-card card-evolua" id="btn-metodo-evolua"
         title="Conheça o Método E.V.O.L.U.A.">
         <div class="card-icon-col">
           <!-- Mortarboard Academic Cap Icon -->
@@ -518,7 +529,7 @@
       <i class="bi bi-geo-alt-fill footer-pin"></i>
       <span>Salvador - BA</span>
       <span class="footer-pipe">|</span>
-      <span>Dra. Gabriella Lima</span>
+      <span>Hangar Business Park</span>
       <div class="footer-line"></div>
     </footer>
 
